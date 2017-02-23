@@ -1,0 +1,13 @@
+<div class="detail" *ngIf="MOV">
+    <h2>{{MOV.name}} details!</h2>
+    <div>
+        <label>Edit:</label>
+        <input class="nameInput" [(ngModel)]="MOV.name" placeholder="name"/>
+    </div>
+    <div>
+        <label>Edit:</label>
+        <input class="detInput" [(ngModel)]="MOV.genre" placeholder="genre"/>
+    </div>
+</div>
+
+ 

@@ -1,3 +1,19 @@
-<h1>
-  {{title}}
-</h1>
+<h1>   {{title}}  </h1>
+<div class="MList">
+  <h2>My Movies</h2>
+  <input class="addInput" #newMovie
+        (keyup.enter)="addMovie(newMovie.value)"
+        (blur)="addMovie(newMovie.value); newMovie.value='' ">
+
+      <button class="addBTN" (click)="addMovie(newMovie.value)">Add</button>
+  <ul class="mov">
+    <li *ngFor="let MOV of mov" 
+      [class.selected]="MOV === selectedMovie"
+      (click)="onSelect(MOV)">
+      {{MOV.name}}
+    </li>
+  </ul>
+
+  <mov-detail [MOV]="selectedMovie">Loading</mov-detail>
+
+</div>

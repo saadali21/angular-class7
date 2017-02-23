@@ -1,0 +1,110 @@
+h1 {
+    color : #369;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+.MList {
+  width: 600px;
+  margin: 10px auto;
+  padding: 0.5em 0.5em;
+  background-color: #bbb;
+  text-align: center;
+  font-size: 18px;
+}
+
+.nameInput{
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #B3E5FC;
+}
+.detInput{
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #B3E5FC;
+    font-size: 18px;
+}
+h2 {
+  color: #369;
+}
+
+.addInput {
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.addBTN{
+    cursor: pointer;
+    padding: 15px 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.selected {
+    background-color: #999 !important;
+    color: white;
+}
+.mov {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 17em;
+  }
+.mov {
+  margin: 10px auto;
+}
+.mov li {
+    cursor: pointer;
+    position: relative;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .5em 0;
+    height: 1.6em;
+    border-radius: 4px;
+    left: 0;
+    text-align: center;
+  }
+.mov li.selected:hover {
+    background-color: #BBD8DC !important;
+    color: #607d8b;
+  }
+.mov li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+.mov .text {
+    position: relative;
+    top: -3px;
+  }
+.mov .badge {
+    display: block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #607D8B;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
